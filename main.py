@@ -11,8 +11,9 @@ def convert():
         length = length * convert_dict[current_unit]
         # then we convert it to ither units
         result_length = length / convert_dict[requested_unit]
+        # show in result lable
         lable_result.config(text= f"result : {result_length: .2f}")
-    except ValueError :
+    except ValueError : # if invalid input
         lable_result.config(text= "invalid input!")
 
 # create a window
