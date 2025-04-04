@@ -20,6 +20,7 @@ def convert():
 root =Tk()
 root.title("converter")
 root.geometry("250x200")
+root.resizable(False, False)
 # receive length
 lable1 = Label(root, text= "length : ").place(x= 0, y= 5)
 e1 = Entry(root)
@@ -40,5 +41,6 @@ lable_result = Label(root, text= "result .....", bg= "lightgray")
 lable_result.place(x= 0, y= 135)
 # close button
 button2 = Button(root, text= "Done", command= root.destroy, width= 30, activebackground= "black", activeforeground= "white").place(x= 15, y= 160)
+root.iconbitmap("icon.ico")
 
 root.mainloop()
