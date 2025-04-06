@@ -29,7 +29,7 @@ Make sure you have Python installed (version **3.x** recommended). Tkinter comes
 1️⃣ **Download** or **clone** this repository 📂
 2️⃣ **Run the script** using:
    ```sh
-   python converter.py
+   python main.py
    ```
 3️⃣ **Enter the length value** in the input field ✍️
 4️⃣ **Select the current unit** from the dropdown 🔽
